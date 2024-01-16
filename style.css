@@ -47,6 +47,8 @@ ul {
 
 .left-content {
   max-width: 500px;
+  display: flex;
+  flex-direction: column;
 }
 
 .awesome {
@@ -71,7 +73,7 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   padding-top: 50px;
-  gap: 600px;;
+  gap: 400px;;
 }
 
 
@@ -153,6 +155,7 @@ ul {
 .quote {
   font-style: italic;
   font-size: 36px;
+  font-weight: lighter;
   color: #1F2937;
  
 }
@@ -161,10 +164,55 @@ ul {
   padding-left: 450px;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .cta-container {
-  margin-top: 50px;
-  max-width: 600px;
-  padding-top: 10px;
+  max-width: 650px;
+  margin-top: 75px;
   background-color: #3882f6;
   color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 35px 70px 25px 70px;
+  align-items: center;
+  justify-content: center;
+  gap: 115px;
+  border-radius: 5px;
+}
+
+.button-2 {
+  border-color: #F9FAF8;
+  background-color: #3882f6;
+  color: #F9FAF8;
+  border-radius: 5px;
+  border-style: solid;
+  padding: 5px 22px 5px 22px;
+  cursor: pointer;
+}
+
+.cta-time {
+  font-weight: 700;
+}
+
+.sign-text {
+  color: #E5E7EB;
+}
+
+.footer {
+  background: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin-top: 60px;
+}
+
+.copy-text {
+  color: #E5E7EB
 }
